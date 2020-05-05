@@ -17,8 +17,8 @@
     <p><strong>Body:</strong>
       <%= @book.body %>
     </p>
-
-    <a class="edit_201012" href="/books/201012/edit">Edit</a> |
+    <!-- 編集部分 -->
+    <%= link_to "edit", edit_book_path(@book) %>
     <a class="back" href="/books">Back</a>
   </body>
 </html>
