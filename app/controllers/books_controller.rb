@@ -7,8 +7,8 @@ class BooksController < ApplicationController
   end
 
   def new
-    @Books = Book.all
-  	@book = Book.new
+    @books = Book.all
+    @book = Book.new
   end
 
   def create
