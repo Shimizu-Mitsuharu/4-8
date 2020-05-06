@@ -33,6 +33,7 @@ class BooksController < ApplicationController
     redirect_to book_path(book)
     else
       flash[:notice] = "Failed to update."
+    end
   end
 
   def destroy
